@@ -16,15 +16,7 @@
         <servlet-name>AddUser</servlet-name>
         <servlet-class>ru.registration.controller.AddUser</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>User</servlet-name>
-        <servlet-class>ru.registration.controller.User</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UserList</servlet-name>
-        <servlet-class>ru.registration.controller.UserList</servlet-class>
-    </servlet>
-    <servlet-mapping>
+        <servlet-mapping>
         <servlet-name>Dispatcher</servlet-name>
         <url-pattern>/Dispatcher</url-pattern>
     </servlet-mapping>
@@ -40,15 +32,7 @@
         <servlet-name>AddUser</servlet-name>
         <url-pattern>/AddUser</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>User</servlet-name>
-        <url-pattern>/User</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UserList</servlet-name>
-        <url-pattern>/UserList</url-pattern>
-    </servlet-mapping>
-    <session-config><session-timeout>
+        <session-config><session-timeout>
         30
     </session-timeout></session-config><welcome-file-list><welcome-file>
     index.jsp
