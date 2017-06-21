@@ -5,8 +5,9 @@ package ru.registration.controller;
  */
 
 
+import ru.registration.model.User;
+
 import java.io.*;
-import java.net.*;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

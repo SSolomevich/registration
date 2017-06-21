@@ -12,9 +12,10 @@
     <title>Страница успешного входа в систему</title>
 </head>
 <body>
+
 <br>
 <h1>Вход посетителя в систему прошел успешно</h1>
-<jsp:useBean id="user" class="ru.registration.controller.User" scope="application"/>
+<jsp:useBean id="user" class="ru.registration.model.User" scope="application"/>
 Пользователь: <%= user.getUser()%><br>
 Email: <%= user.getEmail()%><br>
 Адрес: <%= user.getAddress()%><br>

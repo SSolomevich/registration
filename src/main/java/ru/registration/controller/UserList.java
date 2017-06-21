@@ -3,6 +3,8 @@ package ru.registration.controller;
 /**
  * Created by 15 on 01.04.2017.
  */
+import ru.registration.model.User;
+
 import java.util.HashMap;
 import java.util.Map;
 public class UserList  {

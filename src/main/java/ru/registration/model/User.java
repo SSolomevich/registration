@@ -1,4 +1,4 @@
-package ru.registration.controller;
+package ru.registration.model;
 
 /**
  * Created by 15 on 01.04.2017.
